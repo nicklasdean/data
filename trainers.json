@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Ash Ketchum",
+    "age": 16,
+    "hometown": "Pallet Town",
+    "badges": ["Boulder", "Cascade", "Thunder"],
+    "favorite_pokemon": "Pikachu",
+    "team": ["Pikachu", "Charizard", "Bulbasaur", "Squirtle", "Butterfree", "Pidgeotto"]
+  },
+  {
+    "name": "Misty",
+    "age": 18,
+    "hometown": "Cerulean City",
+    "badges": ["Cascade"],
+    "favorite_pokemon": "Starmie",
+    "team": ["Starmie", "Psyduck", "Gyarados", "Horsea"]
+  },
+  {
+    "name": "Brock",
+    "age": 20,
+    "hometown": "Pewter City",
+    "badges": ["Boulder"],
+    "favorite_pokemon": "Onix",
+    "team": ["Onix", "Geodude", "Vulpix", "Zubat"]
+  },
+  {
+    "name": "Gary Oak",
+    "age": 16,
+    "hometown": "Pallet Town",
+    "badges": ["Boulder", "Cascade", "Thunder", "Rainbow"],
+    "favorite_pokemon": "Blastoise",
+    "team": ["Blastoise", "Arcanine", "Alakazam", "Nidoking", "Pidgeot", "Gengar"]
+  },
+  {
+    "name": "Erika",
+    "age": 21,
+    "hometown": "Celadon City",
+    "badges": ["Rainbow"],
+    "favorite_pokemon": "Vileplume",
+    "team": ["Vileplume", "Tangela", "Victreebel", "Bellossom"]
+  },
+  {
+    "name": "Sabrina",
+    "age": 25,
+    "hometown": "Saffron City",
+    "badges": ["Marsh"],
+    "favorite_pokemon": "Alakazam",
+    "team": ["Alakazam", "Mr. Mime", "Hypno", "Kadabra"]
+  },
+  {
+    "name": "Lt. Surge",
+    "age": 30,
+    "hometown": "Vermilion City",
+    "badges": ["Thunder"],
+    "favorite_pokemon": "Raichu",
+    "team": ["Raichu", "Electabuzz", "Magnemite", "Jolteon"]
+  },
+  {
+    "name": "Koga",
+    "age": 33,
+    "hometown": "Fuchsia City",
+    "badges": ["Soul"],
+    "favorite_pokemon": "Weezing",
+    "team": ["Weezing", "Muk", "Golbat", "Arbok"]
+  },
+  {
+    "name": "Janine",
+    "age": 19,
+    "hometown": "Fuchsia City",
+    "badges": ["Soul"],
+    "favorite_pokemon": "Crobat",
+    "team": ["Crobat", "Venomoth", "Ariados", "Weezing"]
+  },
+  {
+    "name": "Blaine",
+    "age": 45,
+    "hometown": "Cinnabar Island",
+    "badges": ["Volcano"],
+    "favorite_pokemon": "Magmar",
+    "team": ["Magmar", "Rapidash", "Arcanine", "Ninetales"]
+  },
+  {
+    "name": "Lorelei",
+    "age": 28,
+    "hometown": "Four Island",
+    "badges": [],
+    "favorite_pokemon": "Lapras",
+    "team": ["Lapras", "Dewgong", "Cloyster", "Slowbro"]
+  },
+  {
+    "name": "Bruno",
+    "age": 35,
+    "hometown": "Johto",
+    "badges": [],
+    "favorite_pokemon": "Machamp",
+    "team": ["Machamp", "Hitmonlee", "Hitmonchan", "Onix"]
+  },
+  {
+    "name": "Agatha",
+    "age": 70,
+    "hometown": "Lavender Town",
+    "badges": [],
+    "favorite_pokemon": "Gengar",
+    "team": ["Gengar", "Haunter", "Arbok", "Golbat"]
+  },
+  {
+    "name": "Lance",
+    "age": 29,
+    "hometown": "Blackthorn City",
+    "badges": [],
+    "favorite_pokemon": "Dragonite",
+    "team": ["Dragonite", "Gyarados", "Aerodactyl", "Charizard"]
+  },
+  {
+    "name": "Clair",
+    "age": 24,
+    "hometown": "Blackthorn City",
+    "badges": ["Rising"],
+    "favorite_pokemon": "Kingdra",
+    "team": ["Kingdra", "Dragonair", "Gyarados", "Charizard"]
+  },
+  {
+    "name": "Ritchie",
+    "age": 15,
+    "hometown": "Unknown",
+    "badges": ["Boulder", "Cascade"],
+    "favorite_pokemon": "Pikachu",
+    "team": ["Pikachu", "Charmeleon", "Butterfree", "Sparky"]
+  },
+  {
+    "name": "Tracey Sketchit",
+    "age": 18,
+    "hometown": "Orange Archipelago",
+    "badges": [],
+    "favorite_pokemon": "Scyther",
+    "team": ["Scyther", "Venonat", "Marill"]
+  },
+  {
+    "name": "Professor Oak",
+    "age": 60,
+    "hometown": "Pallet Town",
+    "badges": [],
+    "favorite_pokemon": "Bulbasaur",
+    "team": ["Bulbasaur", "Charmander", "Squirtle"]
+  },
+  {
+    "name": "Giovanni",
+    "age": 48,
+    "hometown": "Viridian City",
+    "badges": ["Earth"],
+    "favorite_pokemon": "Persian",
+    "team": ["Persian", "Nidoking", "Rhydon", "Dugtrio"]
+  },
+  {
+    "name": "Cynthia",
+    "age": 26,
+    "hometown": "Sinnoh",
+    "badges": [],
+    "favorite_pokemon": "Garchomp",
+    "team": ["Garchomp", "Lucario", "Spiritomb", "Milotic", "Togekiss", "Roserade"]
+  }
+]
