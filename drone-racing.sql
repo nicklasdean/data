@@ -72,13 +72,13 @@ INSERT INTO pilots (pilot_id, callsign, real_name, country, pro_license_number, 
 (1, 'PhoenixFPV', 'Takeshi Yamamoto', 'Japan', 'PRO-2024-0123', '2020-03-15', 2850),
 (2, 'VortexQueen', 'Marina Petrova', 'Russia', 'PRO-2024-0124', '2019-06-22', 3100),
 (3, 'ThunderBolt', 'Raj Kapoor', 'India', 'PRO-2024-0125', '2021-01-10', 2200),
-(4, 'NightHawk', 'Chen Wei', 'China', 'PRO-2024-0126', '2018-09-30', 3300),
+(4, 'NightHawk', 'Chen Wei', 'Japan', 'PRO-2024-0126', '2018-09-30', 3300),
 (5, 'DesertStorm', 'Ahmed Hassan', 'UAE', 'PRO-2024-0127', '2022-02-15', 1950),
 (6, 'CyberWitch', 'Emma Torres', 'Spain', 'PRO-2024-0128', '2019-11-05', 2750),
-(7, 'SpeedDemon', 'Lucas Silva', 'Brazil', 'PRO-2024-0129', '2020-07-20', 2600),
+(7, 'SpeedDemon', 'Lucas Silva', 'Spain', 'PRO-2024-0129', '2020-07-20', 2600),
 (8, 'ArcticFox', 'Erik Larsson', 'Sweden', 'PRO-2024-0130', '2021-04-01', 2400),
 (9, 'WindRunner', 'Sarah O''Connor', 'Ireland', 'PRO-2024-0131', '2019-08-12', 2900),
-(10, 'DragonZero', 'Park Min-jun', 'South Korea', 'PRO-2024-0132', '2020-05-15', 2700);
+(10, 'DragonZero', 'Park Min-jun', 'Japan', 'PRO-2024-0132', '2020-05-15', 2700);
 
 -- Populate drones table
 INSERT INTO drones (drone_id, pilot_id, nickname, frame_model, weight_grams, motor_kv, battery_capacity, certification_status) VALUES
