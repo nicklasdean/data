@@ -1,5 +1,7 @@
-DROP DATABASE drone_racing IF EXISTS
-CREATE DATABASE drone_racing
+DROP DATABASE IF EXISTS drone_racing;
+CREATE DATABASE drone_racing;
+
+USE drone_racing;
 
 CREATE TABLE pilots (
     pilot_id INT PRIMARY KEY,
