@@ -3,69 +3,153 @@ CREATE DATABASE drone_racing;
 
 USE drone_racing;
 
-CREATE TABLE pilots (
-    pilot_id INT PRIMARY KEY,
-    callsign VARCHAR(50) UNIQUE NOT NULL,
-    real_name VARCHAR(100),
-    country VARCHAR(50),
-    pro_license_number VARCHAR(20) UNIQUE,
-    career_start_date DATE,
-    ranking_points INT DEFAULT 0
-);
+-- MySQL Workbench Forward Engineering
 
-CREATE TABLE drones (
-    drone_id INT PRIMARY KEY,
-    pilot_id INT,
-    nickname VARCHAR(50),
-    frame_model VARCHAR(50),
-    weight_grams INT,
-    motor_kv INT,
-    battery_capacity INT,
-    certification_status VARCHAR(20),
-    FOREIGN KEY (pilot_id) REFERENCES pilots(pilot_id)
-);
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
-CREATE TABLE tracks (
-    track_id INT PRIMARY KEY,
-    track_name VARCHAR(100),
-    location VARCHAR(100),
-    difficulty_rating INT CHECK (difficulty_rating BETWEEN 1 AND 10),
-    length_meters INT,
-    gates_count INT,
-    indoor BOOLEAN,
-    altitude_meters INT
-);
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema drone_racing
+-- -----------------------------------------------------
 
-CREATE TABLE race_events (
-    event_id INT PRIMARY KEY,
-    track_id INT,
-    event_date DATE,
-    weather_conditions VARCHAR(50),
-    prize_pool DECIMAL(10,2),
-    broadcast_partner VARCHAR(100),
-    FOREIGN KEY (track_id) REFERENCES tracks(track_id)
-);
+-- -----------------------------------------------------
+-- Schema drone_racing
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `drone_racing` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+USE `drone_racing` ;
 
-CREATE TABLE race_heats (
-    heat_id INT PRIMARY KEY,
-    event_id INT,
-    heat_number INT,
-    start_time TIMESTAMP,
-    FOREIGN KEY (event_id) REFERENCES race_events(event_id)
-);
+-- -----------------------------------------------------
+-- Table `drone_racing`.`pilots`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `drone_racing`.`pilots` (
+  `pilot_id` INT NOT NULL,
+  `callsign` VARCHAR(50) NOT NULL,
+  `real_name` VARCHAR(100) NULL DEFAULT NULL,
+  `country` VARCHAR(50) NULL DEFAULT NULL,
+  `pro_license_number` VARCHAR(20) NULL DEFAULT NULL,
+  `career_start_date` DATE NULL DEFAULT NULL,
+  `ranking_points` INT NULL DEFAULT '0',
+  PRIMARY KEY (`pilot_id`),
+  UNIQUE INDEX `callsign` (`callsign` ASC) VISIBLE,
+  UNIQUE INDEX `pro_license_number` (`pro_license_number` ASC) VISIBLE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
 
-CREATE TABLE heat_results (
-    heat_id INT,
-    pilot_id INT,
-    drone_id INT,
-    finish_position INT,
-    lap_time_seconds DECIMAL(6,3),
-    disqualified BOOLEAN DEFAULT FALSE,
-    PRIMARY KEY (heat_id, pilot_id),
-    FOREIGN KEY (heat_id) REFERENCES race_heats(heat_id),
-    FOREIGN KEY (pilot_id) REFERENCES pilots(pilot_id),
-    FOREIGN KEY (drone_id) REFERENCES drones(drone_id)
-);
+
+-- -----------------------------------------------------
+-- Table `drone_racing`.`drones`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `drone_racing`.`drones` (
+  `drone_id` INT NOT NULL,
+  `pilot_id` INT NULL DEFAULT NULL,
+  `nickname` VARCHAR(50) NULL DEFAULT NULL,
+  `frame_model` VARCHAR(50) NULL DEFAULT NULL,
+  `weight_grams` INT NULL DEFAULT NULL,
+  `motor_kv` INT NULL DEFAULT NULL,
+  `battery_capacity` INT NULL DEFAULT NULL,
+  `certification_status` VARCHAR(20) NULL DEFAULT NULL,
+  PRIMARY KEY (`drone_id`),
+  INDEX `pilot_id` (`pilot_id` ASC) VISIBLE,
+  CONSTRAINT `drones_ibfk_1`
+    FOREIGN KEY (`pilot_id`)
+    REFERENCES `drone_racing`.`pilots` (`pilot_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `drone_racing`.`tracks`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `drone_racing`.`tracks` (
+  `track_id` INT NOT NULL,
+  `track_name` VARCHAR(100) NOT NULL,
+  `location` VARCHAR(100) NULL DEFAULT NULL,
+  `difficulty_rating` INT NOT NULL,
+  `length_meters` INT NULL DEFAULT NULL,
+  `gates_count` INT NULL DEFAULT NULL,
+  `indoor` TINYINT(1) NULL DEFAULT NULL,
+  `altitude_meters` INT NULL DEFAULT NULL,
+  PRIMARY KEY (`track_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `drone_racing`.`race_events`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `drone_racing`.`race_events` (
+  `event_id` INT NOT NULL,
+  `track_id` INT NOT NULL,
+  `event_date` DATE NULL DEFAULT NULL,
+  `weather_conditions` VARCHAR(50) NULL DEFAULT NULL,
+  `prize_pool` DECIMAL(10,2) NULL DEFAULT NULL,
+  `broadcast_partner` VARCHAR(100) NULL DEFAULT NULL,
+  PRIMARY KEY (`event_id`),
+  INDEX `track_id` (`track_id` ASC) VISIBLE,
+  CONSTRAINT `race_events_ibfk_1`
+    FOREIGN KEY (`track_id`)
+    REFERENCES `drone_racing`.`tracks` (`track_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `drone_racing`.`race_heats`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `drone_racing`.`race_heats` (
+  `heat_id` INT NOT NULL,
+  `event_id` INT NULL DEFAULT NULL,
+  `heat_number` INT NULL DEFAULT NULL,
+  `start_time` TIMESTAMP NULL DEFAULT NULL,
+  PRIMARY KEY (`heat_id`),
+  INDEX `event_id` (`event_id` ASC) VISIBLE,
+  CONSTRAINT `race_heats_ibfk_1`
+    FOREIGN KEY (`event_id`)
+    REFERENCES `drone_racing`.`race_events` (`event_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `drone_racing`.`heat_results`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `drone_racing`.`heat_results` (
+  `heat_id` INT NOT NULL,
+  `pilot_id` INT NOT NULL,
+  `drone_id` INT NOT NULL,
+  `finish_position` INT NOT NULL,
+  `lap_time_seconds` DECIMAL(6,3) NOT NULL,
+  `disqualified` TINYINT(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`heat_id`, `pilot_id`),
+  INDEX `pilot_id` (`pilot_id` ASC) VISIBLE,
+  INDEX `drone_id` (`drone_id` ASC) VISIBLE,
+  CONSTRAINT `heat_results_ibfk_1`
+    FOREIGN KEY (`heat_id`)
+    REFERENCES `drone_racing`.`race_heats` (`heat_id`),
+  CONSTRAINT `heat_results_ibfk_2`
+    FOREIGN KEY (`pilot_id`)
+    REFERENCES `drone_racing`.`pilots` (`pilot_id`),
+  CONSTRAINT `heat_results_ibfk_3`
+    FOREIGN KEY (`drone_id`)
+    REFERENCES `drone_racing`.`drones` (`drone_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
 
 -- Populate pilots table
 INSERT INTO pilots (pilot_id, callsign, real_name, country, pro_license_number, career_start_date, ranking_points) VALUES 
