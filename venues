@@ -1,0 +1,32 @@
+[
+  {
+    "_id": { "$oid": "673c00000000000000000201" },
+    "name": "Royal Arena",
+    "city": "Copenhagen",
+    "capacity": 16000
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000202" },
+    "name": "Parken Stadium",
+    "city": "Copenhagen",
+    "capacity": 38000
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000203" },
+    "name": "Tivoli Friheden",
+    "city": "Aarhus",
+    "capacity": 12000
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000204" },
+    "name": "Forum Copenhagen",
+    "city": "Frederiksberg",
+    "capacity": 8500
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000205" },
+    "name": "KB Hallen",
+    "city": "Frederiksberg",
+    "capacity": 4500
+  }
+]
