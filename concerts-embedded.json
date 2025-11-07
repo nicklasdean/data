@@ -1,0 +1,106 @@
+[
+  {
+    "_id": ObjectId("e1"),
+    "title": "Dua Lipa: Radical Optimism Tour",
+    "artist": { "name": "Dua Lipa", "genre": "Pop" },
+    "venue": { "name": "Royal Arena", "city": "Copenhagen", "capacity": 16000 },
+    "date": ISODate("2026-03-22T20:00:00Z"),
+    "age_limit": 15,
+    "tickets": [
+      { "type": "Floor", "price_dkk": 850, "available": 1200 },
+      { "type": "Seated", "price_dkk": 650, "available": 3000 }
+    ],
+    "status": "on_sale"
+  },
+  {
+    "_id": ObjectId("e2"),
+    "title": "The Weeknd: After Hours 'Til Dawn",
+    "artist": { "name": "The Weeknd", "genre": "R&B / Pop" },
+    "venue": { "name": "Parken Stadium", "city": "Copenhagen", "capacity": 38000 },
+    "date": ISODate("2026-06-10T21:00:00Z"),
+    "age_limit": 15,
+    "tickets": [
+      { "type": "Standing", "price_dkk": 950, "available": 8000 },
+      { "type": "Seated", "price_dkk": 720, "available": 20000 }
+    ],
+    "status": "on_sale"
+  },
+  {
+    "_id": ObjectId("e3"),
+    "title": "Arctic Monkeys: European Summer Tour",
+    "artist": { "name": "Arctic Monkeys", "genre": "Indie Rock" },
+    "venue": { "name": "Tivoli Friheden", "city": "Aarhus", "capacity": 12000 },
+    "date": ISODate("2026-07-05T19:30:00Z"),
+    "age_limit": 15,
+    "tickets": [
+      { "type": "Standing", "price_dkk": 690, "available": 7000 },
+      { "type": "VIP", "price_dkk": 1100, "available": 300 }
+    ],
+    "status": "pre_sale"
+  },
+  {
+    "_id": ObjectId("e4"),
+    "title": "Taylor Swift: The Eras Tour",
+    "artist": { "name": "Taylor Swift", "genre": "Pop" },
+    "venue": { "name": "Parken Stadium", "city": "Copenhagen", "capacity": 38000 },
+    "date": ISODate("2026-08-02T20:00:00Z"),
+    "age_limit": 10,
+    "tickets": [
+      { "type": "Floor", "price_dkk": 1200, "available": 6000 },
+      { "type": "Seated", "price_dkk": 850, "available": 25000 }
+    ],
+    "status": "on_sale"
+  },
+  {
+    "_id": ObjectId("e5"),
+    "title": "Fred again.. Live 2026",
+    "artist": { "name": "Fred again..", "genre": "Electronic" },
+    "venue": { "name": "Royal Arena", "city": "Copenhagen", "capacity": 16000 },
+    "date": ISODate("2026-02-14T22:00:00Z"),
+    "age_limit": 18,
+    "tickets": [
+      { "type": "Standing", "price_dkk": 580, "available": 5000 },
+      { "type": "VIP", "price_dkk": 950, "available": 400 }
+    ],
+    "status": "on_sale"
+  },
+  {
+    "_id": ObjectId("e6"),
+    "title": "Billie Eilish: Hit Me Hard and Soft",
+    "artist": { "name": "Billie Eilish", "genre": "Pop / Alternative" },
+    "venue": { "name": "Royal Arena", "city": "Copenhagen", "capacity": 16000 },
+    "date": ISODate("2026-05-11T20:00:00Z"),
+    "age_limit": 12,
+    "tickets": [
+      { "type": "Standing", "price_dkk": 780, "available": 5000 },
+      { "type": "Seated", "price_dkk": 650, "available": 7000 }
+    ],
+    "status": "on_sale"
+  },
+  {
+    "_id": ObjectId("e7"),
+    "title": "SZA: SOS World Tour",
+    "artist": { "name": "SZA", "genre": "R&B / Soul" },
+    "venue": { "name": "Forum Copenhagen", "city": "Frederiksberg", "capacity": 8500 },
+    "date": ISODate("2026-04-20T20:00:00Z"),
+    "age_limit": 15,
+    "tickets": [
+      { "type": "Standing", "price_dkk": 720, "available": 3000 },
+      { "type": "Seated", "price_dkk": 580, "available": 3500 }
+    ],
+    "status": "on_sale"
+  },
+  {
+    "_id": ObjectId("e8"),
+    "title": "Central Cee: EU Tour",
+    "artist": { "name": "Central Cee", "genre": "UK Rap" },
+    "venue": { "name": "KB Hallen", "city": "Frederiksberg", "capacity": 4500 },
+    "date": ISODate("2026-01-25T21:00:00Z"),
+    "age_limit": 16,
+    "tickets": [
+      { "type": "Standing", "price_dkk": 550, "available": 2000 },
+      { "type": "Balcony", "price_dkk": 470, "available": 1500 }
+    ],
+    "status": "announced"
+  }
+]
