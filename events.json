@@ -1,0 +1,106 @@
+[
+  {
+    "_id": { "$oid": "673c00000000000000000301" },
+    "title": "Dua Lipa: Radical Optimism Tour",
+    "artist_id": { "$oid": "673c00000000000000000101" },
+    "venue_id": { "$oid": "673c00000000000000000201" },
+    "date": { "$date": "2026-03-22T20:00:00Z" },
+    "age_limit": 15,
+    "status": "on_sale",
+    "tickets": [
+      { "type": "Floor", "price_dkk": 850, "available": 1200 },
+      { "type": "Seated", "price_dkk": 650, "available": 3000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000302" },
+    "title": "The Weeknd: After Hours 'Til Dawn",
+    "artist_id": { "$oid": "673c00000000000000000102" },
+    "venue_id": { "$oid": "673c00000000000000000202" },
+    "date": { "$date": "2026-06-10T21:00:00Z" },
+    "age_limit": 15,
+    "status": "on_sale",
+    "tickets": [
+      { "type": "Standing", "price_dkk": 950, "available": 8000 },
+      { "type": "Seated", "price_dkk": 720, "available": 20000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000303" },
+    "title": "Arctic Monkeys: European Summer Tour",
+    "artist_id": { "$oid": "673c00000000000000000103" },
+    "venue_id": { "$oid": "673c00000000000000000203" },
+    "date": { "$date": "2026-07-05T19:30:00Z" },
+    "age_limit": 15,
+    "status": "pre_sale",
+    "tickets": [
+      { "type": "Standing", "price_dkk": 690, "available": 7000 },
+      { "type": "VIP", "price_dkk": 1100, "available": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000304" },
+    "title": "Taylor Swift: The Eras Tour",
+    "artist_id": { "$oid": "673c00000000000000000104" },
+    "venue_id": { "$oid": "673c00000000000000000202" },
+    "date": { "$date": "2026-08-02T20:00:00Z" },
+    "age_limit": 10,
+    "status": "on_sale",
+    "tickets": [
+      { "type": "Floor", "price_dkk": 1200, "available": 6000 },
+      { "type": "Seated", "price_dkk": 850, "available": 25000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000305" },
+    "title": "Fred again.. Live 2026",
+    "artist_id": { "$oid": "673c00000000000000000105" },
+    "venue_id": { "$oid": "673c00000000000000000201" },
+    "date": { "$date": "2026-02-14T22:00:00Z" },
+    "age_limit": 18,
+    "status": "on_sale",
+    "tickets": [
+      { "type": "Standing", "price_dkk": 580, "available": 5000 },
+      { "type": "VIP", "price_dkk": 950, "available": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000306" },
+    "title": "Billie Eilish: Hit Me Hard and Soft",
+    "artist_id": { "$oid": "673c00000000000000000106" },
+    "venue_id": { "$oid": "673c00000000000000000201" },
+    "date": { "$date": "2026-05-11T20:00:00Z" },
+    "age_limit": 12,
+    "status": "on_sale",
+    "tickets": [
+      { "type": "Standing", "price_dkk": 780, "available": 5000 },
+      { "type": "Seated", "price_dkk": 650, "available": 7000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000307" },
+    "title": "SZA: SOS World Tour",
+    "artist_id": { "$oid": "673c00000000000000000107" },
+    "venue_id": { "$oid": "673c00000000000000000204" },
+    "date": { "$date": "2026-04-20T20:00:00Z" },
+    "age_limit": 15,
+    "status": "on_sale",
+    "tickets": [
+      { "type": "Standing", "price_dkk": 720, "available": 3000 },
+      { "type": "Seated", "price_dkk": 580, "available": 3500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "673c00000000000000000308" },
+    "title": "Central Cee: EU Tour",
+    "artist_id": { "$oid": "673c00000000000000000108" },
+    "venue_id": { "$oid": "673c00000000000000000205" },
+    "date": { "$date": "2026-01-25T21:00:00Z" },
+    "age_limit": 16,
+    "status": "announced",
+    "tickets": [
+      { "type": "Standing", "price_dkk": 550, "available": 2000 },
+      { "type": "Balcony", "price_dkk": 470, "available": 1500 }
+    ]
+  }
+]
