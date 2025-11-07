@@ -1,0 +1,10 @@
+[
+  { "_id": { "$oid": "673c00000000000000000101" }, "name": "Dua Lipa", "genre": "Pop" },
+  { "_id": { "$oid": "673c00000000000000000102" }, "name": "The Weeknd", "genre": "R&B / Pop" },
+  { "_id": { "$oid": "673c00000000000000000103" }, "name": "Arctic Monkeys", "genre": "Indie Rock" },
+  { "_id": { "$oid": "673c00000000000000000104" }, "name": "Taylor Swift", "genre": "Pop" },
+  { "_id": { "$oid": "673c00000000000000000105" }, "name": "Fred again..", "genre": "Electronic" },
+  { "_id": { "$oid": "673c00000000000000000106" }, "name": "Billie Eilish", "genre": "Pop / Alternative" },
+  { "_id": { "$oid": "673c00000000000000000107" }, "name": "SZA", "genre": "R&B / Soul" },
+  { "_id": { "$oid": "673c00000000000000000108" }, "name": "Central Cee", "genre": "UK Rap" }
+]
