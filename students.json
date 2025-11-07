@@ -1,0 +1,95 @@
+[
+  {
+    "_id": ObjectId("s1"),
+    "name": "Sara",
+    "email": "sara@example.com",
+    "courses": [
+      { "title": "Databases", "credits": 5, "grade": "A" },
+      { "title": "Web Development", "credits": 10, "grade": "B" }
+    ]
+  },
+  {
+    "_id": ObjectId("s2"),
+    "name": "Ali",
+    "email": "ali@school.com",
+    "courses": [
+      { "title": "Programming Basics", "credits": 5, "grade": "B" },
+      { "title": "Databases", "credits": 5, "grade": "C" },
+      { "title": "AI Basics", "credits": 5, "grade": "B" }
+    ]
+  },
+  {
+    "_id": ObjectId("s3"),
+    "name": "Emma",
+    "email": "emma@school.com",
+    "courses": [
+      { "title": "UX Design", "credits": 5, "grade": "A" },
+      { "title": "Web Development", "credits": 10, "grade": "A" }
+    ]
+  },
+  {
+    "_id": ObjectId("s4"),
+    "name": "Lukas",
+    "email": "lukas@school.com",
+    "courses": [
+      { "title": "Networking", "credits": 5, "grade": "B" },
+      { "title": "Security Fundamentals", "credits": 5, "grade": "A" }
+    ]
+  },
+  {
+    "_id": ObjectId("s5"),
+    "name": "Noah",
+    "email": "noah@school.com",
+    "courses": [
+      { "title": "AI Foundations", "credits": 5, "grade": "A" },
+      { "title": "Data Science", "credits": 10, "grade": "A" }
+    ]
+  },
+  {
+    "_id": ObjectId("s6"),
+    "name": "Mia",
+    "email": "mia@school.com",
+    "courses": [
+      { "title": "Programming Basics", "credits": 5, "grade": "A" },
+      { "title": "Databases", "credits": 5, "grade": "A" }
+    ]
+  },
+  {
+    "_id": ObjectId("s7"),
+    "name": "Oliver",
+    "email": "oliver@school.com",
+    "courses": [
+      { "title": "Web Development", "credits": 10, "grade": "B" },
+      { "title": "Cloud Computing", "credits": 5, "grade": "C" }
+    ]
+  },
+  {
+    "_id": ObjectId("s8"),
+    "name": "Sofia",
+    "email": "sofia@school.com",
+    "courses": [
+      { "title": "Data Science", "credits": 10, "grade": "B" },
+      { "title": "AI Basics", "credits": 5, "grade": "A" },
+      { "title": "Databases", "credits": 5, "grade": "A" }
+    ]
+  },
+  {
+    "_id": ObjectId("s9"),
+    "name": "Ethan",
+    "email": "ethan@school.com",
+    "courses": [
+      { "title": "Cybersecurity", "credits": 5, "grade": "B" },
+      { "title": "Networking", "credits": 5, "grade": "B" }
+    ]
+  },
+  {
+    "_id": ObjectId("s10"),
+    "name": "Ava",
+    "email": "ava@school.com",
+    "courses": [
+      { "title": "Web Development", "credits": 10, "grade": "A" },
+      { "title": "UI Design", "credits": 5, "grade": "A" },
+      { "title": "Programming Basics", "credits": 5, "grade": "A" }
+    ]
+  }
+]
