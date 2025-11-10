@@ -1,10 +1,10 @@
 [
   {
-    "_id": ObjectId("e1"),
+    "_id": { "$oid": "672f000000000000000001e1" },
     "title": "Dua Lipa: Radical Optimism Tour",
     "artist": { "name": "Dua Lipa", "genre": "Pop" },
     "venue": { "name": "Royal Arena", "city": "Copenhagen", "capacity": 16000 },
-    "date": ISODate("2026-03-22T20:00:00Z"),
+    "date": { "$date": "2026-03-22T20:00:00Z" },
     "age_limit": 15,
     "tickets": [
       { "type": "Floor", "price_dkk": 850, "available": 1200 },
@@ -13,11 +13,11 @@
     "status": "on_sale"
   },
   {
-    "_id": ObjectId("e2"),
+    "_id": { "$oid": "672f000000000000000002e2" },
     "title": "The Weeknd: After Hours 'Til Dawn",
     "artist": { "name": "The Weeknd", "genre": "R&B / Pop" },
     "venue": { "name": "Parken Stadium", "city": "Copenhagen", "capacity": 38000 },
-    "date": ISODate("2026-06-10T21:00:00Z"),
+    "date": { "$date": "2026-06-10T21:00:00Z" },
     "age_limit": 15,
     "tickets": [
       { "type": "Standing", "price_dkk": 950, "available": 8000 },
@@ -26,11 +26,11 @@
     "status": "on_sale"
   },
   {
-    "_id": ObjectId("e3"),
+    "_id": { "$oid": "672f000000000000000003e3" },
     "title": "Arctic Monkeys: European Summer Tour",
     "artist": { "name": "Arctic Monkeys", "genre": "Indie Rock" },
     "venue": { "name": "Tivoli Friheden", "city": "Aarhus", "capacity": 12000 },
-    "date": ISODate("2026-07-05T19:30:00Z"),
+    "date": { "$date": "2026-07-05T19:30:00Z" },
     "age_limit": 15,
     "tickets": [
       { "type": "Standing", "price_dkk": 690, "available": 7000 },
@@ -39,11 +39,11 @@
     "status": "pre_sale"
   },
   {
-    "_id": ObjectId("e4"),
+    "_id": { "$oid": "672f000000000000000004e4" },
     "title": "Taylor Swift: The Eras Tour",
     "artist": { "name": "Taylor Swift", "genre": "Pop" },
     "venue": { "name": "Parken Stadium", "city": "Copenhagen", "capacity": 38000 },
-    "date": ISODate("2026-08-02T20:00:00Z"),
+    "date": { "$date": "2026-08-02T20:00:00Z" },
     "age_limit": 10,
     "tickets": [
       { "type": "Floor", "price_dkk": 1200, "available": 6000 },
@@ -52,11 +52,11 @@
     "status": "on_sale"
   },
   {
-    "_id": ObjectId("e5"),
+    "_id": { "$oid": "672f000000000000000005e5" },
     "title": "Fred again.. Live 2026",
     "artist": { "name": "Fred again..", "genre": "Electronic" },
     "venue": { "name": "Royal Arena", "city": "Copenhagen", "capacity": 16000 },
-    "date": ISODate("2026-02-14T22:00:00Z"),
+    "date": { "$date": "2026-02-14T22:00:00Z" },
     "age_limit": 18,
     "tickets": [
       { "type": "Standing", "price_dkk": 580, "available": 5000 },
@@ -65,11 +65,11 @@
     "status": "on_sale"
   },
   {
-    "_id": ObjectId("e6"),
+    "_id": { "$oid": "672f000000000000000006e6" },
     "title": "Billie Eilish: Hit Me Hard and Soft",
     "artist": { "name": "Billie Eilish", "genre": "Pop / Alternative" },
     "venue": { "name": "Royal Arena", "city": "Copenhagen", "capacity": 16000 },
-    "date": ISODate("2026-05-11T20:00:00Z"),
+    "date": { "$date": "2026-05-11T20:00:00Z" },
     "age_limit": 12,
     "tickets": [
       { "type": "Standing", "price_dkk": 780, "available": 5000 },
@@ -78,11 +78,11 @@
     "status": "on_sale"
   },
   {
-    "_id": ObjectId("e7"),
+    "_id": { "$oid": "672f000000000000000007e7" },
     "title": "SZA: SOS World Tour",
     "artist": { "name": "SZA", "genre": "R&B / Soul" },
     "venue": { "name": "Forum Copenhagen", "city": "Frederiksberg", "capacity": 8500 },
-    "date": ISODate("2026-04-20T20:00:00Z"),
+    "date": { "$date": "2026-04-20T20:00:00Z" },
     "age_limit": 15,
     "tickets": [
       { "type": "Standing", "price_dkk": 720, "available": 3000 },
@@ -91,11 +91,11 @@
     "status": "on_sale"
   },
   {
-    "_id": ObjectId("e8"),
+    "_id": { "$oid": "672f000000000000000008e8" },
     "title": "Central Cee: EU Tour",
     "artist": { "name": "Central Cee", "genre": "UK Rap" },
     "venue": { "name": "KB Hallen", "city": "Frederiksberg", "capacity": 4500 },
-    "date": ISODate("2026-01-25T21:00:00Z"),
+    "date": { "$date": "2026-01-25T21:00:00Z" },
     "age_limit": 16,
     "tickets": [
       { "type": "Standing", "price_dkk": 550, "available": 2000 },
