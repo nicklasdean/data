@@ -5,7 +5,15 @@
     "hometown": "Pallet Town",
     "badges": ["Boulder", "Cascade", "Thunder"],
     "favorite_pokemon": "Pikachu",
-    "team": ["Pikachu", "Charizard", "Bulbasaur", "Squirtle", "Butterfree", "Pidgeotto"]
+    "team": ["Pikachu", "Charizard", "Bulbasaur", "Squirtle", "Butterfree", "Pidgeotto"],
+    "region": "Kanto",
+    "role": "League Challenger",
+    "specialty_type": "Mixed",
+    "years_experience": 3,
+    "league": "Indigo League",
+    "team_affiliation": "Independent",
+    "battle_style": "Offensive",
+    "tags": ["kanto", "league", "protagonist", "mixed-team"]
   },
   {
     "name": "Misty",
@@ -13,7 +21,15 @@
     "hometown": "Cerulean City",
     "badges": ["Cascade"],
     "favorite_pokemon": "Starmie",
-    "team": ["Starmie", "Psyduck", "Gyarados", "Horsea"]
+    "team": ["Starmie", "Psyduck", "Gyarados", "Horsea"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Water",
+    "years_experience": 5,
+    "league": "Indigo League",
+    "team_affiliation": "Cerulean Gym",
+    "battle_style": "Defensive",
+    "tags": ["kanto", "gym-leader", "water", "league"]
   },
   {
     "name": "Brock",
@@ -21,7 +37,15 @@
     "hometown": "Pewter City",
     "badges": ["Boulder"],
     "favorite_pokemon": "Onix",
-    "team": ["Onix", "Geodude", "Vulpix", "Zubat"]
+    "team": ["Onix", "Geodude", "Vulpix", "Zubat"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Rock",
+    "years_experience": 6,
+    "league": "Indigo League",
+    "team_affiliation": "Pewter Gym",
+    "battle_style": "Defensive",
+    "tags": ["kanto", "gym-leader", "rock", "league"]
   },
   {
     "name": "Gary Oak",
@@ -29,7 +53,15 @@
     "hometown": "Pallet Town",
     "badges": ["Boulder", "Cascade", "Thunder", "Rainbow"],
     "favorite_pokemon": "Blastoise",
-    "team": ["Blastoise", "Arcanine", "Alakazam", "Nidoking", "Pidgeot", "Gengar"]
+    "team": ["Blastoise", "Arcanine", "Alakazam", "Nidoking", "Pidgeot", "Gengar"],
+    "region": "Kanto",
+    "role": "Rival",
+    "specialty_type": "Mixed",
+    "years_experience": 4,
+    "league": "Indigo League",
+    "team_affiliation": "Independent",
+    "battle_style": "Balanced",
+    "tags": ["kanto", "league", "mixed-team", "rival"]
   },
   {
     "name": "Erika",
@@ -37,7 +69,15 @@
     "hometown": "Celadon City",
     "badges": ["Rainbow"],
     "favorite_pokemon": "Vileplume",
-    "team": ["Vileplume", "Tangela", "Victreebel", "Bellossom"]
+    "team": ["Vileplume", "Tangela", "Victreebel", "Bellossom"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Grass",
+    "years_experience": 7,
+    "league": "Indigo League",
+    "team_affiliation": "Celadon Gym",
+    "battle_style": "Balanced",
+    "tags": ["kanto", "gym-leader", "grass", "league"]
   },
   {
     "name": "Sabrina",
@@ -45,7 +85,15 @@
     "hometown": "Saffron City",
     "badges": ["Marsh"],
     "favorite_pokemon": "Alakazam",
-    "team": ["Alakazam", "Mr. Mime", "Hypno", "Kadabra"]
+    "team": ["Alakazam", "Mr. Mime", "Hypno", "Kadabra"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Psychic",
+    "years_experience": 8,
+    "league": "Indigo League",
+    "team_affiliation": "Saffron Gym",
+    "battle_style": "Control",
+    "tags": ["kanto", "gym-leader", "psychic", "league"]
   },
   {
     "name": "Lt. Surge",
@@ -53,7 +101,15 @@
     "hometown": "Vermilion City",
     "badges": ["Thunder"],
     "favorite_pokemon": "Raichu",
-    "team": ["Raichu", "Electabuzz", "Magnemite", "Jolteon"]
+    "team": ["Raichu", "Electabuzz", "Magnemite", "Jolteon"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Electric",
+    "years_experience": 10,
+    "league": "Indigo League",
+    "team_affiliation": "Vermilion Gym",
+    "battle_style": "Offensive",
+    "tags": ["kanto", "gym-leader", "electric", "league", "veteran"]
   },
   {
     "name": "Koga",
@@ -61,7 +117,15 @@
     "hometown": "Fuchsia City",
     "badges": ["Soul"],
     "favorite_pokemon": "Weezing",
-    "team": ["Weezing", "Muk", "Golbat", "Arbok"]
+    "team": ["Weezing", "Muk", "Golbat", "Arbok"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Poison",
+    "years_experience": 12,
+    "league": "Indigo League",
+    "team_affiliation": "Fuchsia Gym",
+    "battle_style": "Control",
+    "tags": ["kanto", "gym-leader", "poison", "league"]
   },
   {
     "name": "Janine",
@@ -69,7 +133,15 @@
     "hometown": "Fuchsia City",
     "badges": ["Soul"],
     "favorite_pokemon": "Crobat",
-    "team": ["Crobat", "Venomoth", "Ariados", "Weezing"]
+    "team": ["Crobat", "Venomoth", "Ariados", "Weezing"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Poison",
+    "years_experience": 3,
+    "league": "Indigo League",
+    "team_affiliation": "Fuchsia Gym",
+    "battle_style": "Speed",
+    "tags": ["kanto", "gym-leader", "poison", "league", "successor"]
   },
   {
     "name": "Blaine",
@@ -77,7 +149,15 @@
     "hometown": "Cinnabar Island",
     "badges": ["Volcano"],
     "favorite_pokemon": "Magmar",
-    "team": ["Magmar", "Rapidash", "Arcanine", "Ninetales"]
+    "team": ["Magmar", "Rapidash", "Arcanine", "Ninetales"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Fire",
+    "years_experience": 20,
+    "league": "Indigo League",
+    "team_affiliation": "Cinnabar Gym",
+    "battle_style": "Offensive",
+    "tags": ["kanto", "gym-leader", "fire", "league", "veteran"]
   },
   {
     "name": "Lorelei",
@@ -85,7 +165,15 @@
     "hometown": "Four Island",
     "badges": [],
     "favorite_pokemon": "Lapras",
-    "team": ["Lapras", "Dewgong", "Cloyster", "Slowbro"]
+    "team": ["Lapras", "Dewgong", "Cloyster", "Slowbro"],
+    "region": "Kanto",
+    "role": "Elite Four",
+    "specialty_type": "Ice",
+    "years_experience": 9,
+    "league": "Indigo League",
+    "team_affiliation": "Elite Four",
+    "battle_style": "Defensive",
+    "tags": ["kanto", "elite-four", "ice", "league"]
   },
   {
     "name": "Bruno",
@@ -93,7 +181,15 @@
     "hometown": "Johto",
     "badges": [],
     "favorite_pokemon": "Machamp",
-    "team": ["Machamp", "Hitmonlee", "Hitmonchan", "Onix"]
+    "team": ["Machamp", "Hitmonlee", "Hitmonchan", "Onix"],
+    "region": "Johto",
+    "role": "Elite Four",
+    "specialty_type": "Fighting",
+    "years_experience": 12,
+    "league": "Indigo League",
+    "team_affiliation": "Elite Four",
+    "battle_style": "Offensive",
+    "tags": ["johto", "elite-four", "fighting", "league"]
   },
   {
     "name": "Agatha",
@@ -101,7 +197,15 @@
     "hometown": "Lavender Town",
     "badges": [],
     "favorite_pokemon": "Gengar",
-    "team": ["Gengar", "Haunter", "Arbok", "Golbat"]
+    "team": ["Gengar", "Haunter", "Arbok", "Golbat"],
+    "region": "Kanto",
+    "role": "Elite Four",
+    "specialty_type": "Ghost",
+    "years_experience": 40,
+    "league": "Indigo League",
+    "team_affiliation": "Elite Four",
+    "battle_style": "Control",
+    "tags": ["kanto", "elite-four", "ghost", "league", "veteran"]
   },
   {
     "name": "Lance",
@@ -109,7 +213,15 @@
     "hometown": "Blackthorn City",
     "badges": [],
     "favorite_pokemon": "Dragonite",
-    "team": ["Dragonite", "Gyarados", "Aerodactyl", "Charizard"]
+    "team": ["Dragonite", "Gyarados", "Aerodactyl", "Charizard"],
+    "region": "Johto",
+    "role": "Champion",
+    "specialty_type": "Dragon",
+    "years_experience": 11,
+    "league": "Indigo League",
+    "team_affiliation": "Champion",
+    "battle_style": "Offensive",
+    "tags": ["johto", "champion", "dragon", "league"]
   },
   {
     "name": "Clair",
@@ -117,7 +229,15 @@
     "hometown": "Blackthorn City",
     "badges": ["Rising"],
     "favorite_pokemon": "Kingdra",
-    "team": ["Kingdra", "Dragonair", "Gyarados", "Charizard"]
+    "team": ["Kingdra", "Dragonair", "Gyarados", "Charizard"],
+    "region": "Johto",
+    "role": "Gym Leader",
+    "specialty_type": "Dragon",
+    "years_experience": 6,
+    "league": "Johto League",
+    "team_affiliation": "Blackthorn Gym",
+    "battle_style": "Balanced",
+    "tags": ["johto", "gym-leader", "dragon", "league"]
   },
   {
     "name": "Ritchie",
@@ -125,7 +245,15 @@
     "hometown": "Unknown",
     "badges": ["Boulder", "Cascade"],
     "favorite_pokemon": "Pikachu",
-    "team": ["Pikachu", "Charmeleon", "Butterfree", "Sparky"]
+    "team": ["Pikachu", "Charmeleon", "Butterfree", "Sparky"],
+    "region": "Kanto",
+    "role": "League Challenger",
+    "specialty_type": "Electric",
+    "years_experience": 2,
+    "league": "Indigo League",
+    "team_affiliation": "Independent",
+    "battle_style": "Balanced",
+    "tags": ["kanto", "league", "electric", "challenger"]
   },
   {
     "name": "Tracey Sketchit",
@@ -133,7 +261,15 @@
     "hometown": "Orange Archipelago",
     "badges": [],
     "favorite_pokemon": "Scyther",
-    "team": ["Scyther", "Venonat", "Marill"]
+    "team": ["Scyther", "Venonat", "Marill"],
+    "region": "Orange Islands",
+    "role": "Researcher",
+    "specialty_type": "Mixed",
+    "years_experience": 3,
+    "league": "Orange League",
+    "team_affiliation": "Professor's Assistant",
+    "battle_style": "Support",
+    "tags": ["orange-islands", "researcher", "assistant", "mixed-team"]
   },
   {
     "name": "Professor Oak",
@@ -141,7 +277,15 @@
     "hometown": "Pallet Town",
     "badges": [],
     "favorite_pokemon": "Bulbasaur",
-    "team": ["Bulbasaur", "Charmander", "Squirtle"]
+    "team": ["Bulbasaur", "Charmander", "Squirtle"],
+    "region": "Kanto",
+    "role": "Professor",
+    "specialty_type": "Starter",
+    "years_experience": 35,
+    "league": "Indigo League",
+    "team_affiliation": "Pallet Lab",
+    "battle_style": "Support",
+    "tags": ["kanto", "professor", "researcher", "starters"]
   },
   {
     "name": "Giovanni",
@@ -149,7 +293,15 @@
     "hometown": "Viridian City",
     "badges": ["Earth"],
     "favorite_pokemon": "Persian",
-    "team": ["Persian", "Nidoking", "Rhydon", "Dugtrio"]
+    "team": ["Persian", "Nidoking", "Rhydon", "Dugtrio"],
+    "region": "Kanto",
+    "role": "Gym Leader",
+    "specialty_type": "Ground",
+    "years_experience": 22,
+    "league": "Indigo League",
+    "team_affiliation": "Team Rocket",
+    "battle_style": "Offensive",
+    "tags": ["kanto", "gym-leader", "villain", "ground", "league"]
   },
   {
     "name": "Cynthia",
@@ -157,6 +309,14 @@
     "hometown": "Sinnoh",
     "badges": [],
     "favorite_pokemon": "Garchomp",
-    "team": ["Garchomp", "Lucario", "Spiritomb", "Milotic", "Togekiss", "Roserade"]
+    "team": ["Garchomp", "Lucario", "Spiritomb", "Milotic", "Togekiss", "Roserade"],
+    "region": "Sinnoh",
+    "role": "Champion",
+    "specialty_type": "Mixed",
+    "years_experience": 9,
+    "league": "Sinnoh League",
+    "team_affiliation": "Champion",
+    "battle_style": "Balanced",
+    "tags": ["sinnoh", "champion", "mixed-team", "league"]
   }
 ]
